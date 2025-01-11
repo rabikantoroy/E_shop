@@ -785,8 +785,10 @@ a.page {
 }
 
 .spro-img {
-  width: 30%;
-  margin-right: 50px;
+  width: 40%;
+  margin-right: 30px;
+  padding: 10px;
+  background: #dfdfdf;
 }
 
 .si-group {
@@ -808,7 +810,18 @@ a.page {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
+  margin-left: 30px;
+}
+
+button.btn.btn-cart {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+p.spro-para {
+  font-size: 12px !important;
+  line-height: 20px !important;
+  color: #8a8d91;
 }
 
 h3.spro-text2 {
@@ -818,10 +831,24 @@ h3.spro-text2 {
   font-weight: 500;
   text-align: center;
 }
-
 select.spro-selects {
+  padding: 5px 10px;
+  display: block;
   margin: 16px 0px;
 }
 
+select.spro-selects:focus {
+  outline: none;
+}
+
+input.spro-input {
+  padding: 5px 10px;
+  /* margin-left: 2px; */
+  width: 50px;
+}
+
+input.spro-input:focus {
+  outline: none;
+}
 
 /* Product SinglePage Section End */

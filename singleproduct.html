@@ -62,12 +62,13 @@
   </section>
   <!-- Header Section End  -->
 
+  <!-- Single Products Section Start  -->
   <section class="prodetails">
     <div class="container container-md container-sm">
       <div class="single-product-details-all">
 
         <div class="spro-img">
-          <img src="Assets/Product-Images/06.jpg" width="100%" class="mainimg" alt="">
+          <img src="Assets/Product-Images/06.jpg" width="100%" id="mainimg" alt="">
   
           <div class="si-group">
   
@@ -76,11 +77,11 @@
             </div>
   
             <div class="si-col si-col-other">
-              <img src="Assets/Product-Images/02.jpg" width="100%" class="small-img" alt="">
+              <img src="Assets/Product-Images/01.jpg" width="100%" class="small-img" alt="">
             </div>
   
             <div class="si-col">
-              <img src="Assets/Product-Images/02.jpg" width="100%" class="small-img" alt="">
+              <img src="Assets/Product-Images/05.jpg" width="100%" class="small-img" alt="">
             </div>
   
           </div>
@@ -98,7 +99,7 @@
             <option value="L">L</option>
             <option value="XL">XL</option>
           </select>
-          <input type="number" class="spro-input">
+          <input type="number" value="1" class="spro-input">
           <button class="btn btn-cart">Add To Cart</button>
           <h3 class="spro-text2">Product Details</h3>
           <p class="spro-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non aperiam molestiae ad autem hic eos, similique illum, dolorem impedit aut amet, dicta iste natus. Explicabo magni iste sed eligendi ab. Corrupti a odio iusto quisquam fuga. Vero illum, voluptatum reprehenderit explicabo accusamus soluta nam veritatis assumenda, molestiae, temporibus illo ipsum.</p>
@@ -107,6 +108,106 @@
       </div>
     </div>
   </section>
+  <!-- Single Products Section End  -->
+
+    <!-- New Arrivals section start -->
+    <section class="best-products">
+      <div class="container container-md container-sm b-products-items">
+  
+        <h1 class="products-m-text">Featured Products</h1>
+        <p class="products-m-para">Summer Collection New Model Design</p>
+  
+        <div class="products-all">
+  
+          <div class="products-item">
+            <img src="Assets/Product-Images/cloth1.jpg" alt="">
+    
+            <div class="products-details">
+              <span class="products-para">Adidas</span>
+              <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+    
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3 class="products-price">$80</h3>
+              <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+    
+            </div>
+    
+          </div>
+  
+          <div class="products-item">
+            <img src="Assets/Product-Images/cloth2.jpg" alt="">
+    
+            <div class="products-details">
+              <span class="products-para">Adidas</span>
+              <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+    
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3 class="products-price">$80</h3>
+              <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+    
+            </div>
+    
+          </div>
+  
+          <div class="products-item">
+            <img src="Assets/Product-Images/cloth3.jpg" alt="">
+    
+            <div class="products-details">
+              <span class="products-para">Adidas</span>
+              <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+    
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3 class="products-price">$80</h3>
+              <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+    
+            </div>
+    
+          </div>
+  
+          <div class="products-item products-item-m">
+            <img src="Assets/Product-Images/cloth4.jpg" alt="">
+    
+            <div class="products-details">
+              <span class="products-para">Adidas</span>
+              <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+    
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h3 class="products-price">$80</h3>
+              <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+    
+            </div>
+    
+          </div>
+  
+        </div>
+  
+      </div>
+    </section>
+    <!-- New Arrivals section End -->
 
   <!-- Newsletter Section Start  -->
   <section class="newsletter">
@@ -209,6 +310,25 @@
 
 
   <!-- JS File  -->
+<script>
+var MainImg = document.getElementById('mainimg');
+var SmallImg = document.getElementsByClassName('small-img');
+
+  SmallImg[0].onclick = function() {
+    MainImg.src = SmallImg[0].src;
+}
+  SmallImg[1].onclick = function() {
+    MainImg.src = SmallImg[1].src;
+}
+  SmallImg[2].onclick = function() {
+    MainImg.src = SmallImg[2].src;
+}
+  SmallImg[3].onclick = function() {
+    MainImg.src = SmallImg[3].src;
+}
+
+</script>
+
   <script src="Js/script.js"></script>
 </body>
 </html>
