@@ -14,39 +14,627 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="header">
-    <div class="container all-header">
 
+  <!-- Header Section Start -->
+  <section class="header">
+    <div class="container container-md container-sm all-header">
+
+      <!-- Logo Section Start -->
       <div class="logo">
         <h3><a href="index.html">E-SHOP</a></h3>
       </div>
+      <!-- Logo Section End -->
 
+      <!-- Search Bar Section Start -->
       <div class="search-bar">
         <input type="text" placeholder="Search..." class="custom-search">
-        <button type="submit"><i class="fa fa-search"></i></button>
+        <button type="submit" class="btn-icons"><i class="fa fa-search"></i></button>
       </div>
+      <!-- Search Bar Section End -->
 
+      <!-- Navigation Bar Section Start  -->
       <nav class="nav-bar">
 
-        <ul class="nav">
-          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+        <ul id="navbar" class="nav">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
           <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
           <li class="nav-item"><a href="blogs.html" class="nav-link">Blogs</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
 
           <div class="cart">
-            <a href="#"><i class="fa fa-shopping-cart"></i> Cart</a>
-            <span>0</span>
+            <a href="cart.html" class="h-cart"><i class="fa fa-shopping-cart"></i> Cart</a>
+            <span class="h-num">0</span>
             <img src="/" alt="">
           </div>
-
-
         </ul>
+
+        <div class="mobile">
+          <a href="/cart.html" id="mobile-icons"><i class="fa fa-shopping-cart"></i></a>
+          <i id="bar" class="fas fa-outdent"></i>
+        </div>
+
       </nav>
+      <!-- Navigation Bar Section End  -->
 
     </div>
   </section>
+  <!-- Header Section End  -->
+
+  <!-- Hero Section Start  -->
+  <section class="hero">
+      <div class="container container-md container-sm hero-action">
+
+        <div class="hero-left">
+          <h4 class="hero-text1 hero-text">Trade-in-offer</h4>
+          <h2 class="hero-text2 hero-text">Super value deals</h2>
+          <h2 class="hero-text3 hero-text">On all products</h2>
+          <p class="hero-para">Save more with coupons & up to 80% off!</p>
+          <button class="btn">Shop Now</button>
+        </div>
+
+      </div>
+  </section>
+  <!-- Hero Section End  -->
+
+  <!-- Products Carousel Start -->
+  <!-- <section class="product-caro">
+    <div class="container">
+      <h2 class="product-caro-heading">Best Sellers in Toys & Games</h2>
+      <div class="product-caro-slider"></div>
+  </section> -->
+  <!-- Products Carousel End -->
+
+  <!-- Best Products Start  -->
+  <section class="best-products">
+    <div class="container container-md container-sm b-products-items">
+
+      <h1 class="products-m-text">Best Products</h1>
+      <p class="products-m-para">Summer Collection New Model Design</p>
+
+      <div class="products-all">
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-1.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-2.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-3.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item products-item-m">
+          <img src="Assets/Product-Images2/gaming-pc-4.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-5.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-6.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-7.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item products-item-m">
+          <img src="Assets/Product-Images2/gaming-pc-8.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-1.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-10.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images2/gaming-pc-1.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item products-item-m">
+          <img src="Assets/Product-Images2/gaming-pc-2.png" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Best Products End  -->
+
+  <!-- New Arrivals section start -->
+  <section class="best-products">
+    <div class="container container-md container-sm b-products-items">
+
+      <h1 class="products-m-text">New Arrivals</h1>
+      <p class="products-m-para">Summer Collection New Model Design</p>
+
+      <div class="products-all">
+
+        <div class="products-item">
+          <img src="Assets/Product-Images/cloth1.jpg" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images/cloth2.jpg" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images/cloth3.jpg" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item products-item-m">
+          <img src="Assets/Product-Images/cloth4.jpg" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images/cloth1.jpg" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images/cloth2.jpg" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item">
+          <img src="Assets/Product-Images/cloth3.jpg" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+        <div class="products-item products-item-m">
+          <img src="Assets/Product-Images/cloth4.jpg" alt="">
+  
+          <div class="products-details">
+            <span class="products-para">Adidas</span>
+            <h4 class="products-text">Nike Air Zoom Pegasus 360</h4>
+  
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3 class="products-price">$80</h3>
+            <a href="#"><i class="fa-solid fa-cart-shopping products-cart"></i></a>
+  
+          </div>
+  
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- New Arrivals section End -->
+
+  <!-- Newsletter Section Start  -->
+  <section class="newsletter">
+    <div class="container container-md container-sm">
+
+      <div class="newsletter-all">
+
+        <div class="newsletter-text">
+          <h3 class="newsletter-sign">Sign Up For Newsletters</h3>
+          <p class="newsletter-para">Get E-mail updates about our latest shop and <span class="newsletter-s">speacial offers.</span></p>
+        </div>
+  
+        <div class="newsletter-form">
+          <input type="text" placeholder="Your E-mail Address">
+          <button class="btn btn-news">Sign Up</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Newsletter Section End  -->
+
+  <!-- Footer 1 Section Start  -->
+  <section class="footer-1">
+    <div class="container container-md container-sm">
+
+      <div class="footer-top">
+
+        <div class="footer-top-no1">
+          <h4>MOBILE</h4>        
+          <ul class="footer-top-items">
+            <li class="footer-top-item"><a href="#" class="footer-items">Small Handset</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">Android Set</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">Android Pro</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-top-no2">
+          <h4>WOMEN CLOTH</h4>
+          <ul class="footer-top-items">
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-top-no3">
+          <h4>MEN CLOTH</h4>
+          <ul class="footer-top-items">
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-top-no4">
+          <h4>CHILD CLOTH</h4>
+          <ul class="footer-top-items">
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-top-no5">
+          <h4>E-BOOK</h4>
+          <ul class="footer-top-items">
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+            <li class="footer-top-item"><a href="#" class="footer-items">E-Book</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- Footer 1 Section End -->
+  
+  <!-- Footer 2 Section Start -->
+  <section class="footer-2">
+    <div class="container container-md container-sm">
+
+      <div class="footer-bottom">
+        <span class="footer-items"><a href="#"><i class="fa-brands fa-square-instagram footer-icon"></i></a></span>
+        <span class="footer-items"><a href="#"><i class="fa-brands fa-tiktok footer-icon"></i></a></span>
+        <span class="footer-items"><a href="#"><i class="fa-brands fa-square-facebook footer-icon"></i></a></span>
+        <span class="footer-items"><a href="#"><i class="fa-brands fa-square-youtube footer-icon"></i></a></span>
+        <span class="footer-items"><a href="#"><i class="fa-brands fa-linkedin footer-icon"></i></a></span>
+          <p class=" copy-part">© COPYRIGHT, ALL RIGHTS RESERVED BY RABI KANTO</p>
+          
+      </div>
+      <!-- Footer 2 Section End  -->
+
+    </div>
+  </section>
+  <!-- Footer Section End  -->
+  
+
 
   <!-- JS File  -->
   <script src="Js/script.js"></script>
