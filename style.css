@@ -331,12 +331,18 @@ i.fa-solid.fa-cart-shopping.products-cart {
 button.normal {
   margin-top: 15px;
 }
-/* Banner Section End */
 
-/* Other Banner Section Start  */
 .other-banner-content-all {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+/* Banner Section End */
+
+/* Other Banner Section Start  */
+.other-banner-content-alls {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
 
@@ -678,7 +684,6 @@ a#close {
 
   section.header {
     position: sticky;
-    /* width: 100vw; */
   }
 
   .search-bar {
@@ -744,6 +749,10 @@ a#close {
     left: 36px;
     color: #088178;
   }
+
+
+  /* Blog Section  */
+
 }
 /* Responsive Design End */
 
@@ -867,3 +876,101 @@ input.spro-input:focus {
 }
 
 /* Product SinglePage Section End */
+
+/* Blog Page Section Start  */
+.blog-all {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+h4.blog-d-text {
+  text-align: left !important;
+  line-height: 50px !important;
+  font-size: 20px !important;
+}
+
+p.blog-d-para {
+  line-height: 24px !important;
+  font-size: 14px !important;
+}
+
+.blog-details {
+  padding: 30px;
+}
+
+.blog-img {
+  padding: 30px;
+}
+
+a.blog-d-btn {
+  font-size: 12px !important;
+  line-height: 50px !important;
+  position: relative;
+  transition: 0.3s;
+}
+
+a.blog-d-btn::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #000;
+  top: 9px;
+  right: -50px;
+  position: absolute;
+}
+
+a.blog-d-btn:hover{
+  color: #088178;
+}
+a.blog-d-btn:hover::after{
+  background-color: #088178;
+}
+section.blog {
+  background: rgb(255, 255, 255);
+}
+/* Blog Page Section End */
+
+/* About Section Start  */
+img {
+  width: 100%;
+}
+
+.about-all {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  padding: 50px 0px;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 54px;
+  color: #222;
+  font-weight: 500;
+  text-align: left !important;
+}
+
+p {
+  font-size: 14px !important;
+  line-height: 22px !important;
+  color: #8a8d91;
+  margin: 16px 0px 10px 0px;
+}
+/* About Section End  */
+
+/* Contact Section Start  */
+.contact-all {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+/* Contact Section End  */
